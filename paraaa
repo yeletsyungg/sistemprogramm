@@ -1,0 +1,26 @@
+@yeletsyungg ➜ /workspaces/sistemprogramm (main) $ g++ -o hw .hw.cpp файл че то
+
+
+
+
+  std::cout<<"hello world"<<std::endl;
+    std::cerr<<"ERROR!"<<std::endl;
+
+
+    @yeletsyungg ➜ /workspaces/sistemprogramm (main) $ ./hw 1>>output 2>>error.logg
+
+
+
+    #include <iostream>
+int main (){
+    int a;
+    std::cin>> a;
+    std::cout<<"hello world"<<std::endl;
+    std::cerr<<"ERROR!"<<std::endl;
+
+    return a;
+
+}
+
+
+
